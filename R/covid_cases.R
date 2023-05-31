@@ -10,10 +10,11 @@
 #'
 #' @examples -
 #' covid_cases("Netherlands", 2021, 5)
-covid_cases <- function(country, year, month){
-  covid_data <- edcc_data %>% filter(countriesAndTerritories == country,
-                               year == year,
-                               month == month)
-  covid_data %>% head(10)
+#' covid_cases("Iceland", 2020, 8)
+covid_cases <- function(Country, Year, Month){
+  covid_data <- edcc_data %>% filter(countriesAndTerritories == Country,
+                                     year == Year,
+                                     month == Month )
+  return(covid_data)
 }
 
