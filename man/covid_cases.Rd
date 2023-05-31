@@ -4,9 +4,11 @@
 \alias{covid_cases}
 \title{Creating a  filtered dataset related to COVID-19 cases}
 \usage{
-covid_cases(Country, Y, M)
+covid_cases(datafile, Country, Y, M)
 }
 \arguments{
+\item{datafile}{datafile to be filtered}
+
 \item{Y}{Choose year: 2020, 2021, 2022}
 
 \item{M}{Choose month: 1 (Jan), 2 (Feb), 3 (Mar), 4 (Apr), 5 (May), 6 (Jun), 7 (Jul), 8 (Aug), 9 (Sep), 10 (Okt), 11 (Nov), 12 (Dec)}
@@ -21,6 +23,6 @@ Creating a  filtered dataset related to COVID-19 cases
 }
 \examples{
 -
-covid_cases("Netherlands", 2021, 5)
-covid_cases("Iceland", 2020, 8)
+covid_cases(edcc_data, "Netherlands", 2021, 5)
+covid_cases(edcc_data, "Iceland", 2020, 8)
 }
