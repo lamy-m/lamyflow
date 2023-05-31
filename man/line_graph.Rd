@@ -2,7 +2,7 @@
 % Please edit documentation in R/line_graph.R
 \name{line_graph}
 \alias{line_graph}
-\title{Making a simple line_graph}
+\title{Making a line_graph}
 \usage{
 line_graph(datafile, X, Y)
 }
@@ -14,10 +14,10 @@ line_graph(datafile, X, Y)
 \item{Y}{value on the y-axis}
 }
 \value{
-a simple line graph
+a line graph
 }
 \description{
-Making a simple line_graph
+Making a line_graph
 }
 \examples{
 line_graph(edcc_data, day, cases)

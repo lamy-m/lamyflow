@@ -1,0 +1,92 @@
+---
+title: "Introduction to lamyflow"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to lamyflow}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, include=FALSE}
+library(lamyflow)
+```
+
+## The purpose of lamyflow
+
+This is a introduction the Rpackage "lamyflow". This package helps to reproduce the github page [lamy-m.github.io](https://lamy-m.github.io/index.html).It contains 4 data files and 4 functions. 
+
+## Installation 
+
+The package "lamyflow" needs to be installed as following:
+
+```{r}
+install.packages("devtools")
+devtools::install_github("lamy-m/lamyflow")
+```
+
+After installiation the package can be called as following: 
+
+```{r}
+library(lamyflow)
+```
+
+## The datasets
+
+This package contains four datasets that have been used in the github page [lamy-m.github.io](https://lamy-m.github.io/index.html). To load in the dataste use the function `{data}`
+
+### Dataset: Celegans
+
+The "Celegans" data set is been used in the [C. elegans plate experiment analysis](https://lamy-m.github.io/c.-elegans-plate-experiment-analysis.html). It contains 34 colomns and 360 rows. The data set can be load in as following:
+
+```{r}
+data("Celegans")
+```
+
+### Dataset: dengue
+
+The "dengue" dataset is been used in the [Relational databases](https://lamy-m.github.io/relational-databases.html). It contains 6 colomns and 6,590 rows. The data set can be load in as following:
+
+```{r}
+data("dengue")
+```
+
+### Dataset: edcc_data
+
+The "edcc_data" dataset is been used in the [Parameters and Presentations](https://lamy-m.github.io/parameters-and-presentations.html). It contains 11 colomns and 28,729 rows. The data set can be load in as following:
+
+```{r}
+data("edcc_data")
+```
+
+### Dataset: flu
+
+The "flu" dataset is been used in the [Relational databases](https://lamy-m.github.io/relational-databases.html). It contains 6 colomns and 19,111 rows. The data set can be load in as following:
+
+```{r}
+data("edcc_data")
+```
+
+## The functions
+
+This packages contains four functions. The functions can be used after the packaged is installed and loaded. The names of the functions in this package are: 
+
+- Celegans_norm 
+- covid_cases
+- csv_rds
+- line_graph
+
+Use "?" before the function to see their documention. 
+
+```{r, eval=FALSE}
+?Celegans_norm 
+?covid_cases
+?csv_rds
+?line_graph
+
+```

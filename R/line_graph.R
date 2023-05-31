@@ -4,7 +4,7 @@
 #' @param X value on the x-axis
 #' @param Y value on the y-axis
 #'
-#' @import tidyverse
+#' @importFrom magrittr %>%
 #' @import ggplot2
 #' @return a line graph
 #' @export

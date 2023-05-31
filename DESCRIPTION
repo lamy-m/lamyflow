@@ -2,10 +2,21 @@ Package: lamyflow
 Type: Package
 Title: lamy-m.github.io package
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: "Lamyae el Mahboud"
+Maintainer: <lamyae131@hotmail.com>
 Description: This Rpackage helps to reproduce the data
-License: What license is it under?
+License: MIT + file LICENSE
+Imports:
+    dplyr,
+    ggplot2,
+    magrittr,
+    readr
+Depends: 
+    R (>= 3.5.0)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
