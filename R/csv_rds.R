@@ -5,7 +5,7 @@
 #'
 #' @importFrom magrittr %>%
 #' @import readr
-#' @importFrom("utils", "write.csv")
+#' @importFrom utils write.csv
 #' @return a ".csv" file and a ".rds" file in a map called "csv_rds".
 #' @export
 #'

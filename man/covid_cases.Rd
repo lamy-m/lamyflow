@@ -4,14 +4,14 @@
 \alias{covid_cases}
 \title{Creating a  filtered dataset related to COVID-19 cases}
 \usage{
-covid_cases(Country, Year, Month)
+covid_cases(Country, Y, M)
 }
 \arguments{
+\item{Y}{Choose year: 2020, 2021, 2022}
+
+\item{M}{Choose month: 1 (Jan), 2 (Feb), 3 (Mar), 4 (Apr), 5 (May), 6 (Jun), 7 (Jul), 8 (Aug), 9 (Sep), 10 (Okt), 11 (Nov), 12 (Dec)}
+
 \item{country}{Make sure to put the country in brackets ("country").}
-
-\item{month}{Choose from: 1 (Jan), 2 (Feb), 3 (Mar), 4 (Apr), 5 (May), 6 (Jun), 7 (Jul), 8 (Aug), 9 (Sep), 10 (Okt), 11 (Nov), 12 (Dec)}
-
-\item{year}{Choose between 2020, 2021, 2022}
 }
 \value{
 a filtered dataset
