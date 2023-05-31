@@ -1,2 +1,2 @@
 # lamyflow
-In this github page, you can find my sel-made R package 
+In this github page, you can find my self-made R package 
