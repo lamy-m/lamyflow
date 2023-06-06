@@ -1,13 +1,8 @@
 # lamyflow
 
-## Why building this Rpackage?
+## About 'lamyflow'
 
-We're almost at the end of this portfolio, and we've seen a lot of datasets, codes, functions etc. The reproduce this portfolio alot easier I've created this Rpackage called lamyflow.
-
-```{r, include=FALSE}
-library(lamyflow)
-```
-
+This package includes four datasets and four functions. 
 
 ## Installation
 
