@@ -4,11 +4,9 @@ Title: lamy-m.github.io package
 Version: 0.1.0
 Author: "Lamyae el Mahboud"
 Maintainer: <lamyae131@hotmail.com>
-Description: This Rpackage helps to reproduce the data
+Description: This Rpackage helps to reproduce the github page lamy-m.github.io.
 License: MIT + file LICENSE
 Imports:
-    dplyr,
-    ggplot2,
     magrittr,
     readr
 Depends: 
@@ -19,5 +17,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
+Config/testthat/edition: 3
