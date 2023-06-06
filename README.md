@@ -2,7 +2,7 @@
 
 ## About 'lamyflow'
 
-This package includes four datasets and four functions. 
+The goal is to reproduce the [lamy-.github.io](https://lamy-m.github.io/index.html) page easier.This package includes four datasets and four functions. 
 
 ## Installation
 
