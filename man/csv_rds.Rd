@@ -2,7 +2,7 @@
 % Please edit documentation in R/csv_rds.R
 \name{csv_rds}
 \alias{csv_rds}
-\title{Title}
+\title{Save datafile to .csv and .rds}
 \usage{
 csv_rds(datafile, outputname)
 }
@@ -15,7 +15,7 @@ csv_rds(datafile, outputname)
 a ".csv" file and a ".rds" file in a map called "csv_rds".
 }
 \description{
-Title
+Save datafile to .csv and .rds
 }
 \examples{
 csv_rds(flu, "flu_dataset")

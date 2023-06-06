@@ -1,4 +1,4 @@
-#' Title
+#' Save datafile to .csv and .rds
 #'
 #' @param datafile a datafile that will be converted to a dataframe and then be written to a ".csv" file and a ".rds" file.
 #' @param outputname the name of the output file. Needs to be characteristic ("between bracktes")
